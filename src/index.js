@@ -3,19 +3,18 @@ import ReactDOM from 'react-dom/client';
 
 function Greeting() {
   return (
-    <section>
       <div>
-        <h2>Nendy Design</h2>
-      <ul>
-        <li>
-          <a href='https://github.com/isnendyankp'>Github</a>
-        </li>
-      </ul>
+        <Person />
+        <Message />
       </div>
-      <h3>Hello World</h3>
-    </section>
+
   );
 }
+
+const Person = () => <h2>Nendy</h2>;
+const Message = () => {
+  return <p>This is my message</p>
+};
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

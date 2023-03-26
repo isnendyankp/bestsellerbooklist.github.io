@@ -3,9 +3,17 @@ import ReactDOM from 'react-dom/client';
 
 function Greeting() {
   return (
-    <div>
-      <h2>My First Component</h2>
-    </div>
+    <section>
+      <div>
+        <h2>Nendy Design</h2>
+      <ul>
+        <li>
+          <a href='https://github.com/isnendyankp'>Github</a>
+        </li>
+      </ul>
+      </div>
+      <h3>Hello World</h3>
+    </section>
   );
 }
 

@@ -22,7 +22,12 @@ const Book = () =>{
   );
 };
 
-const Image = () => <h2>image placeholder</h2>;
+const Image = () => (
+  <img
+    src='https://images-na.ssl-images-amazon.com/images/I/71m+Qtq+HrL._AC_UL900_SR900,600_.jpg'
+    alt='Interesting Facts For Curious Minds'
+  />
+);
 const Title = () => <h2>Title of the book</h2>;
 const Author = () => {
   return <h4>Author</h4>

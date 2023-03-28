@@ -5,7 +5,7 @@ import './index.css';
 
 const BookList = () =>{
   return (
-    <section>
+    <section className='booklist'>
       <Book />
       <Book />
       <Book />
@@ -16,7 +16,7 @@ const BookList = () =>{
 
 const Book = () =>{
   return (
-    <article>
+    <article className='book'>
       <Image />
       <Title />
       <Author />

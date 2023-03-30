@@ -7,15 +7,15 @@ const title = 'Interesting Facts For Curious Mindssssss';
 const BookList = () =>{
   return (
     <section className='booklist'>
-      <Book />
-      <Book />
+      <Book job='developer' />
+      <Book title='random title' number={22} />
       <Book />
       <Book />
     </section>
   );
 }
 
-const Book = () => {
+const Book = (props) => {
   return (
     <article className='book'>
       <img 
@@ -24,6 +24,9 @@ const Book = () => {
       />
       <h2>{title}</h2>
       <h4>{author} </h4>
+      <p>{props.job}</p>
+      <p>{props.title}</p>
+      <p>{props.number}</p>
     </article>
   );
 };

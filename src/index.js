@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
 import './index.css';
+const author = 'Jordan Moore';
+const title = 'Interesting Facts For Curious Mindssssss';
 
 const BookList = () =>{
   return (
@@ -14,9 +15,7 @@ const BookList = () =>{
   );
 }
 
-const author = 'Jordan Moore';
 const Book = () => {
-  const title = 'Interesting Facts For Curious Mindssssss';
   return (
     <article className='book'>
       <img 

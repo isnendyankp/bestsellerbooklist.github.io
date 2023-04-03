@@ -35,8 +35,9 @@ const EventExamples = () => {
     <section>
       <form>
         <h2>Typical Form</h2>
-        <input type='text' style={{ margin: '1rem 0'}} />
+        <input type='text' name='example' style={{ margin: '1rem 0'}} />
       </form>
+      <button>click me</button>
     </section>
   );
 }

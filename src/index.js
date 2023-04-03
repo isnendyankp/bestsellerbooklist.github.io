@@ -22,6 +22,7 @@ const books = [
 const BookList = () => {
   return (
     <section className='booklist'>
+      <EventExamples />
       {books.map((book) => {
         return <Book {...book} key={book.id} />;
       })}
@@ -30,7 +31,14 @@ const BookList = () => {
 };
 
 const EventExamples = () => {
-  return <h1>events</h1>;
+  return (
+    <section>
+      <form>
+        <h2>Typical Form</h2>
+        <input type='text' style={{ margin: '1rem 0'}} />
+      </form>
+    </section>
+  );
 }
 
 const Book = (props) => {

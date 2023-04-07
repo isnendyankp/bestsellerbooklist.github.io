@@ -45,7 +45,7 @@ const Book = (props) => {
     <article className='book'>
       <img src={img} alt={title} />
       <h2>{title}</h2>
-      <button onClick={getSingleBook}>click me</button>
+      <button onClick={() => getBook(id)}>click me</button>
       <h4>{author} </h4>
     </article>
   );

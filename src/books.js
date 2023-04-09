@@ -1,5 +1,5 @@
 
-export const books = [
+const books = [
   {
     author: 'Jordan Moore',
   title: 'Interesting Facts For Curious Minds',
@@ -13,3 +13,5 @@ export const books = [
   id:2,
   },
 ];
+
+export default books;

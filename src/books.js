@@ -1,3 +1,4 @@
+import img3 from './Images/Dad Jokes.jpg'
 
 export const books = [
   {
@@ -11,6 +12,12 @@ export const books = [
     title: 'Atomic Habits',
     img: 'https://images-na.ssl-images-amazon.com/images/I/81wgcld4wxL._AC_UL900_SR900,600_.jpg',
   id:2,
+  },
+  {
+    author: 'Jimmy Niro',
+    title: 'Dad Jokes',
+    img: img3,
+  id:3,
   },
 ];
 
